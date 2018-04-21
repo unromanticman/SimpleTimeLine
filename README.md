@@ -5,6 +5,6 @@ You can easy use it in anywhere.
 ## Usage
 ```html
 <head>
-  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="./simpleTimeLine.css">
 </head>
 ```

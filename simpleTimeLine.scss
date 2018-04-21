@@ -77,7 +77,9 @@ $themes: (
 }
 
 /* style */
-
+div{
+  box-sizing: no;
+}
 .simple-time-line{
   position: relative;
   @include themify($themes) {
@@ -85,7 +87,9 @@ $themes: (
   }
   list-style-type: none;
 }
+
 .simple-time-line::after{
+  box-sizing: no !important;
   content: '';
   position: absolute;
   width: 3px;
@@ -95,8 +99,12 @@ $themes: (
   top: 5px;
   bottom: 5px;
   z-index:-1;
+  -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+        box-sizing: content-box;
 }
 .circle {
+  box-sizing: no;
   margin-left:-6.4px;
   height: 10px;
   width: 10px;

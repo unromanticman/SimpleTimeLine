@@ -75,12 +75,14 @@ $themes: (
 @function themed($key) {
   @return map-get($theme-map, $key);
 }
-
-/* style */
-div{
-  box-sizing: no;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+      box-sizing: border-box;    
 }
+/* style */
 .simple-time-line{
+  margin:15px;
   position: relative;
   @include themify($themes) {
     color:themed('font-color');
@@ -89,7 +91,7 @@ div{
 }
 
 .simple-time-line::after{
-  box-sizing: no !important;
+  left:0%;
   content: '';
   position: absolute;
   width: 3px;
@@ -99,15 +101,11 @@ div{
   top: 5px;
   bottom: 5px;
   z-index:-1;
-  -webkit-box-sizing: content-box;
-   -moz-box-sizing: content-box;
-        box-sizing: content-box;
 }
 .circle {
-  box-sizing: no;
   margin-left:-6.4px;
-  height: 10px;
-  width: 10px;
+  height: 15px;
+  width: 15px;
   background-color: $white;
   border-radius: 50%;
   z-index: 1;
@@ -117,8 +115,8 @@ div{
 }
 .circle.active{
   margin-left:-6.4px;
-  height: 10px;
-  width: 10px;
+  height: 15px;
+  width: 15px;
   @include themify($themes) {
     background-color: themed('timeline-color');
     border: 3px solid themed('timeline-color');
@@ -128,8 +126,8 @@ div{
 }
 .circle.start{
   margin-left:-4.45px;
-  height: 6px;
-  width: 6px;
+  height: 11px;
+  width: 11px;
   background-color: $white;
   border-radius: 50%;
   z-index: 1;
@@ -139,8 +137,8 @@ div{
 }
 .circle.start.active{
   margin-left:-4.45px;
-  height: 6px;
-  width: 6px;
+  height: 11px;
+  width: 11px;
   @include themify($themes) {
   background-color: themed('timeline-color');
   border: 3px solid themed('timeline-color');
@@ -150,8 +148,8 @@ div{
 }
 .circle.end{
   margin-left:-4.45px;
-  height: 6px;
-  width: 6px;
+  height: 11px;
+  width: 11px;
   background-color: $white;
   border-radius: 50%;
   z-index: 1;
@@ -161,8 +159,8 @@ div{
 }
 .circle.end.active{
   margin-left:-4.45px;
-  height: 6px;
-  width: 6px;
+  height: 11px;
+  width: 11px;
   @include themify($themes) {
     background-color: themed('timeline-color');
     border: 3px solid themed('timeline-color');
@@ -170,18 +168,18 @@ div{
   border-radius: 50%;
   z-index: 1;
 }
-.simple-time-line > li > .content > .title{
+.simple-time-line > div > .content > .title{
   @include themify($themes) {
     color:themed('title-color');
   }
   font-size:16px;
 }
-.simple-time-line > li > .content > .extra{
+.simple-time-line > div > .content > .extra{
   margin-top:5px;
   font-size:15px;
   padding-left:10px;
 }
-.simple-time-line > li > .content{
+.simple-time-line > div > .content{
   padding-left:30px;
   margin-top:-19px;
   min-height:60px;

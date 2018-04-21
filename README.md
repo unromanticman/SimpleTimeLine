@@ -3,7 +3,7 @@ SimpleTimeLine is a simple responsive timeline style.
 We provide seven color style (gray,red,orange,yellow,green,blue,purple),you can easy use it in anywhere.    
 It can be used in Bootstrap as well.
 
-<a href="https://unromanticman.github.io/SimpleTimeLine/">Display On Github.io</a>
+<a href="https://unromanticman.github.io/SimpleTimeLine.css/">Display On Github.io</a>
 
 ## Usage
 ```html

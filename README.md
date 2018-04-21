@@ -8,3 +8,6 @@ You can easy use it in anywhere.
   <link rel="stylesheet" href="./simpleTimeLine.css">
 </head>
 ```
+
+## Demo
+![Screenshot](example.png)

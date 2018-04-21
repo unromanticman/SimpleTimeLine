@@ -2,7 +2,7 @@
 SimpleTimeLine is a simple timeline style.
 We provide seven color style,you can easy use it in anywhere.    
 
-<a href="https://unromanticman.github.io/SimpleTimeLine/">Show On Github.io</a>
+<a href="https://unromanticman.github.io/SimpleTimeLine/">Display On Github.io</a>
 
 ## Usage
 ```html
@@ -49,5 +49,5 @@ We provide seven color style,you can easy use it in anywhere.
 ```
 
 ## Demo
-<img width="300" src="https://github.com/unromanticman/SimpleTimeLine/blob/master/example.png?raw=true"/>
+<img width="350" src="https://github.com/unromanticman/SimpleTimeLine/blob/master/example.png?raw=true"/>
 

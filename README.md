@@ -1,6 +1,7 @@
 # SimpleTimeLine
 SimpleTimeLine is a simple timeline style.  
 We provide seven color style,you can easy use it in anywhere.    
+It can also be used in Bootstrap.
 
 <a href="https://unromanticman.github.io/SimpleTimeLine/">Display On Github.io</a>
 

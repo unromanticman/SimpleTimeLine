@@ -10,4 +10,4 @@ You can easy use it in anywhere.
 ```
 
 ## Demo
-<img width="200" href="https://github.com/unromanticman/SimpleTimeLine/blob/master/example.png?raw=true"/>
+<img width="200" src="https://github.com/unromanticman/SimpleTimeLine/blob/master/example.png?raw=true"/>
